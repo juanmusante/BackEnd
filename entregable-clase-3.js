@@ -51,8 +51,14 @@ class ProductManager {
 }
 
 // let ProductManager1 = new ProductManager;
-// ProductManager1.addProducts('producto prueba', 'Este es un producto prueba', 200, 'Sin imagen', 'abc123', 25);
+// let ProductManager2 = new ProductManager;
+// let ProductManager3 = new ProductManager;
+// ProductManager1.addProducts('producto prueba', 'Este es un producto prueba', 202, 'Sin imagen', 'abc123', 25);
+// ProductManager2.addProducts('producto prueba', 'Este es un producto prueba', 201, 'Sin imagen', 'abc123', 25);
+// ProductManager3.addProducts('producto prueba', 'Este es un producto prueba', 200, 'Sin imagen', 'abc123', 25);
 // ProductManager1.getProducts();
-// ProductManager1.getProductById(1);
-// ProductManager1.addProducts('producto prueba', 'Este es un producto prueba', 200, 'Sin imagen', 'abc123', 25);
-// ProductManager1.getProductById(12);
+// ProductManager2.getProducts();
+// ProductManager3.getProducts();
+// // ProductManager1.getProductById(1);
+// // ProductManager1.addProducts('producto prueba', 'Este es un producto prueba', 200, 'Sin imagen', 'abc123', 25);
+// // ProductManager1.getProductById(12);
