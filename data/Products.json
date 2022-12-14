@@ -1,1 +1,48 @@
-[]
+[
+	{
+		"id": 1,
+		"title": {
+			"title": "producto prueba",
+			"description": "Este es un producto prueba",
+			"price": 202,
+			"thumbnail": "Sin imagen",
+			"code": "abc123",
+			"stock": 25
+		},
+		"price": 5290
+	},
+	{
+		"id": 2,
+		"title": {
+			"title": "producto prueba 2",
+			"description": "Este es el segundo producto prueba",
+			"price": 7000,
+			"thumbnail": "Sin imagen",
+			"code": "dfe456",
+			"stock": 12
+		}
+	},
+	{
+		"id": 1,
+		"title": {
+			"title": "producto prueba",
+			"description": "Este es un producto prueba",
+			"price": 202,
+			"thumbnail": "Sin imagen",
+			"code": "abc123",
+			"stock": 25
+		},
+		"price": 5290
+	},
+	{
+		"id": 2,
+		"title": {
+			"title": "producto prueba 2",
+			"description": "Este es el segundo producto prueba",
+			"price": 7000,
+			"thumbnail": "Sin imagen",
+			"code": "dfe456",
+			"stock": 12
+		}
+	}
+]

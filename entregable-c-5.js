@@ -50,13 +50,12 @@ class ProductManager {
                 code,
                 stock 
             }
-
-            const productString = JSON.stringify(productArray, null, '\t');
     
             if (!productArray){
                 console.error(`The item ${title} is already added with the code ${code}.`);
             } else {
                 productArray.push(newProduct);
+                const productString = JSON.stringify(productArray, null, '\t');
                 await this.writeFile(productString);
                 console.log(`The item ${title}, has been added.`);
             }
@@ -88,7 +87,7 @@ class ProductManager {
 
         const updateList = products.map(item =>{
             if(item.id === productUpdate.id){
-                return productUpdatel
+                return productUpdate
             }else{
                 return item
             }
