@@ -21,10 +21,14 @@ class ProductManager {
         try {
             if(existsSync(this.path)){
                 const productString = await this.readFile() 
+                if(productString.length > 0) {
                 const productParse = await JSON.parse(productString);
                 return productParse;
+                } else {
+                return []
+            }
             } else {
-                return [];
+                return []
             }
         } catch (error) {
             console.log(error)
