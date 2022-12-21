@@ -1,5 +1,6 @@
 const fs = require('fs/promises');
 const { existsSync } = require('fs');
+const { json } = require('express');
 
 class ProductManager {
 
@@ -19,10 +20,10 @@ class ProductManager {
         try {
             if(existsSync(this.path)){
                 const productString = await this.readFile();
-                const productParse = await JSON.parse(productString);
+                const productPase = await JSON.parse(productString);
 
-                if(productParse.length > 0) {
-                    return productParse;
+                if(productPase.length > 0) {
+                    return productPase;
                 } else {
                     return []
                 }

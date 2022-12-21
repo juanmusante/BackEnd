@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Creación de carpeta BackEnd, para entrega de desafíos y proyecto.",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "keywords": [],
+  "author": "Juan Musante",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanmusante/BackEnd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juanmusante/BackEnd/issues"
+  },
+  "homepage": "https://github.com/juanmusante/BackEnd#readme"
+}
